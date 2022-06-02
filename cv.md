@@ -8,7 +8,7 @@ Senior System Administrator
 **discord** dkrutov
 
 
-## Skils
+## Skills
 
 Administration of workstations and servers (Windows Server 2003-2019, Linux)
 
