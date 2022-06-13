@@ -1,1 +1,133 @@
-style.css
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.container-centered {
+  margin: 20px auto;
+  width: 1440px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.portrait {
+  width: 100%;
+}
+
+.two-columns {
+  display: flex;
+}
+
+.left-column {
+  width: 25%;
+  color: dimgray;
+  background-color: dimgray;
+}
+
+.right-column {
+  width: 75%;
+  padding: 40px 40px 40px 10px;
+  background-color: beige;
+}
+
+.name {
+  font-size: 55px;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.prof {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 30px;
+
+}
+
+hr {
+  background-color: black;
+  color: black;
+  height: 2px;
+}
+
+.header__contacts {
+  height: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-bottom: 3px;
+  border-bottom-color: black;
+}
+
+.header__contacts-item {
+  float: left;
+  width: 215px;
+  padding: 0px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.SVG {
+  float: left;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+aside h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: aliceblue;
+  text-align: center;
+  margin: 20px;
+}
+
+aside ul {
+  list-style-type: disc;
+  margin-left: 75px;
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 1.5;
+}
+
+aside hr {
+  background-color: aliceblue;
+  color: aliceblue;
+  height: 3px;
+}
+
+main h3 {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  font-size: 1.2rem;
+  color: #ffffff;
+  height: 60px;
+  background-color: dimgray;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer .github-icon {
+  margin-left: 20px;
+}
+
+footer .rs-icon {
+  margin-right: 30px;
+}
+
+.my-github {
+  display: flex;
+  align-items: center;
+}
